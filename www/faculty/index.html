@@ -1,1 +1,105 @@
-Hello, world!
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<title>Cisco IT Essentials</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="loaderArea">
+   <div class="loader"></div>
+</div>
+<script>
+  $(window).on('load', function () {
+    $preloader = $('.loaderArea'),
+      $loader = $preloader.find('.loader');
+    $loader.fadeOut();
+    $preloader.delay(300).fadeOut('slow');
+  });
+</script>
+	<header> 
+		<div class="logo">
+			<a href="index.html">
+				<img class="graficlogo" src="img/logoitnew.png" alt="Logo">
+			</a>
+		</div>
+		<hr/>
+		<nav id="menu">
+			<div class="topnav" id="myTopnav">
+				<ul id="menu" class="slideDown">
+					<li>
+						<a href="index.html"><img id="home_img" src="img/home.png" alt="Home"> Головна</a>
+					</li>
+					<li>
+						<a href="virtual.html"><img id="lab_img" src="img/lab.png" alt="Lab"> Virtual Lab</a>
+					</li>
+					<li>
+						<a href="linux_info.html"><img id="linux_img" src="img/li.png" alt="Linux"> Додаткове про Linux <strong id="alpha">[ALPHA]</strong></a>
+					</li>
+					<li>
+						<a href="resources.html"><img id="res_img" src="img/res.png" alt="res"> Ресурси <strong id="beta">[BETA]</strong></a>
+					</li>
+					<li>
+						<a href="network_info.html"><img id="net_img" src="img/www.png" alt="net"> Мережа <strong id="gamma">[GAMMA]</strong></a>
+					</li>
+					<li>
+						<a href="material/safety.pdf"><img id="shield_img" src="img/shield.png" alt="Download"> Техніка безпеки</a>
+					</li>
+				</ul>
+			</div>
+			</nav>
+	</header>
+	<main>
+		<div class="bgimg"><img class="bg" src="img/bg.jpg" alt="BACKGROUND"></div>
+	<div class="links_container">
+		<div class="links">
+			<div class="links_items">
+				<img src="img/windows.png" alt="Windows 10">
+				<h2>Windows 10</h2>
+				<p>Образи ОС Windows 10 Professional (Українська) за ліцензією <a href="material/Campus.pdf" target="_blank" title="Campus License">(Campus License)</a>, ключ активації у викладача. Для завантаження натисніть посилання: <a href="/distr/SW_DVD5_Win_Pro_Ent_Edu_N_10_1803_32BIT_Ukrainian_-2_MLF_X21-79665.ISO" title="x86 (32 bit)">x86 (32 bit)</a>, <a href="/distr/SW_DVD5_Win_Pro_Ent_Edu_N_10_1803_64BIT_Ukrainian_-2_MLF_X21-79666.ISO" title="x86-64 (64 bit)">x86-64 (64 bit)</a></p>
+			</div>
+			<div class="links_items">
+				<img src="img/linux.png" alt="Linux">
+				<h2>Linux</h2>
+				<p>Образ операційної системи Linux Mint 18.3 Sylvia. Для завантаження натисніть посилання: <a href="/distr/linuxmint-18.3-cinnamon-64bit.iso" title="x86-64 (64 bit)">x86-64 (64 bit)</a></p>
+			</div>
+			<div class="links_items">
+				<img class="js_logo" src="img/js.png" alt="JAVAScript Emulators">
+				<h2>JAVAScript Emulators</h2>
+				<p>Script емулятори Windows/Linux/ARM. Для коректної роботи відкривати посилання у браузерах Firefox та Chrome: <a href="https://bellard.org/jslinux/" title="JSLinux">JSLinux</a>, <a href="http://copy.sh/v86/" title="x86 mashines">x86 mashines</a></p>
+			</div>
+			<div class="links_items">
+				<img class="mproject" src="img/mproject.png" alt="Microsoft Project">
+				<h2>Microsoft Project</h2>
+				<p>Образи пакету Project 2016 Professional (Українська) за ліцензією <a href="material/Campus.pdf" target="_blank" title="Campus License">(Campus License)</a>, ключ активації у викладача. Для завантаження натисніть посилання: <a href="/distr/SW_DVD5_Project_Pro_2016_W32_English_MLF_X20-41516.ISO" title="x86 (32 bit)">x86 (32 bit)</a>, <a href="/distr/SW_DVD5_Project_Pro_2016_64Bit_Ukrainian_MLF_X20-42710.ISO" title="x86-64 (64 bit)">x86-64 (64 bit)</a></p>
+			</div>
+			<div class="links_items">
+				<img class="visio" src="img/visio.png" alt="Visio 2016 Professional">
+				<h2>Visio 2016 Professional</h2>
+				<p>Образи пакету Visio 2016 Professional (Українська) за ліцензією <a href="material/Campus.pdf" target="_blank" title="Campus License">(Campus License)</a>, ключ активації у викладача. Для завантаження натисніть посилання: <a href="/distr/SW_DVD5_Visio_Pro_2016_W32_Ukrainian_MLF_X20-41605.ISO" title="x86 (32 bit)">x86 (32 bit)</a>, <a href="/distr/SW_DVD5_Visio_Pro_2016_64Bit_Ukrainian_MLF_X20-42784.ISO" title="x86-64 (64 bit)">x86-64 (64 bit)</a></p>
+			</div>
+			<div class="links_items">
+				<img class="office" src="img/office.png" alt="Microsoft Office 2016 Professional">
+				<h2>Microsoft Office 2016 Professional</h2>
+				<p>Образи пакету Microsoft Office 2016 Professional (Українська) за ліцензією <a href="" title="Campus License">(Campus License)</a>, ключ активації у викладача. Для завантаження натисніть посилання: <a href="/distr/SW_DVD5_Office_Professional_Plus_2016_W32_Ukrainian_MLF_X20-41348.ISO" title="x86 (32 bit)">x86 (32 bit)</a>, <a href="/distr/SW_DVD5_Office_Professional_Plus_2016_64Bit_Ukrainian_MLF_X20-42464.ISO" title="x86-64 (64 bit)">x86-64 (64 bit)</a></p>
+			</div>
+		</div>
+	</div>
+	</main>
+	
+	<footer>
+		<div id="logo_edward"><img class="mylogo" src="img/mylogo.png" alt="MyLogo">
+		</div>
+		<span>&copy; 2018-2019 Created by <h2>Edward Korennoy</h2>for <a href="https://nubip.edu.ua/" target="_blank">NUBIP</a> Ukraine </span>
+		<div class="social">
+			<a href="https://www.instagram.com/edward_korennoy/" target="_blank"><img class="insta" src="img/instagram.png" alt="instagram"></a>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
